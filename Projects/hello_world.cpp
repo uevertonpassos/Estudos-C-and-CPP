@@ -1,10 +1,7 @@
 #include <iostream>
 
-using namespace std;
-
 int main(){
-	cout << "Hello, World!\n"; 
+	std::cout << "Hello, World!" << std::endl; 
 	//endl; também quebra linhas
-	system("pause");
 	return 0;	
 }
